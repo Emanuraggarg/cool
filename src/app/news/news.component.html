@@ -1,0 +1,15 @@
+<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+
+<div id="btn"><span class="noselect">Hackers News Api</span><div id="circle"></div></div>
+
+<div *ngFor="let article of articles">
+    <h2>{{article.title}}  <img alt="ang" src="./assets/images/anu.jpg" style="width:150px;height:100px;"></h2>
+    
+  
+      <p>
+        {{article.description}}
+      </p>
+
+      <a href="{{article.url}}">Read full article</a>
+  </div>
+  
